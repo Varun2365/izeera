@@ -1,0 +1,209 @@
+@media screen and (max-width: 1500px) {
+    html{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    html{
+        font-size: 13px;
+    }
+    
+    .lightning-results{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .lightning-results-right{
+        width: 100%;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    .hr{
+        display: none;
+    }
+    .lightning-results-left{
+        height: 50vh;
+        width: 60%;
+    }
+    .lightning-results-right h1{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        font-size: 3rem;
+    }
+    .results{
+        font-size: 10px;
+        font-weight: 200;
+        /* background-color: red; */
+    }
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .lightning-results-right::after{
+        bottom: 0;
+        right: 40px;
+        display: none;
+    }
+    .service-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .service-heading{
+        width: 80%;
+    }
+    .contact{
+        /* flex-direction: column; */
+    }
+}
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 12px;
+    }
+    .links{
+        display: none;
+    }
+    nav{
+        height: 7vh;
+        padding: 0 3rem;
+    }
+}
+@media screen and (max-width: 1100px) {
+.contact{
+    flex-direction: column;
+}
+.contact-right{
+    align-items: center;
+    width: 100%;
+}
+form{
+    align-items: center;
+}
+form input, form textarea{
+    width: 100%;
+}
+.contact-left{
+    width: 100%;
+    text-align: center;
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: auto;
+}
+.contact-right{
+    /* background-color: yellow; */
+}
+.feel{
+    font-size: 20px;
+    text-align: center;
+}
+.button-div{
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: auto;
+}
+.footer-right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+.footer-card{
+    justify-content: center;
+    margin: 2rem 0;
+    width: 80%;
+    align-items: center;
+    max-width: none;
+    text-align: center;
+}
+.contact-left h1{
+    width: 100%;
+}
+}
+@media screen and (max-width: 957px) {
+    .hero{
+        flex-direction: column;
+        padding-top: 10rem;
+        height: auto;
+        box-shadow: 0 0 0 0 white;
+    }
+    .lightning-results{
+        box-shadow: none;
+    }
+    .hero-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-right{
+        margin-top: 6rem;
+    }
+    .hero::before{
+        height: 70vh;
+        display: none;
+    }
+    .para{
+        width: 100%;
+    }
+    .lightning-results-right p{
+        line-height: 23px;
+    }
+    .left-hero{
+        margin-bottom: 3rem;
+
+    }
+    .first{
+        margin-bottom: 0rem;
+        font-size: 2.3rem;
+    }
+    .second{
+        margin-bottom: 2rem;
+        font-size: 4rem;
+    }
+    .hero-left p{
+        font-size: 1.2rem;
+        margin-top: 0rem;
+        width: 100%;
+    }
+    .hero-right{
+        width: 100%;
+        background-size: contain;
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 11px;
+    }
+    .services{
+        padding: 4rem 0;
+    }
+    .service-card{
+        height: 40vh;
+        margin: 1rem;
+    }
+    .service-heading{
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 8px;
+    }
+}
