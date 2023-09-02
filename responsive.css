@@ -145,7 +145,7 @@ footer{
         padding: 15rem 3rem 7rem;
         /* align-items: start;
         justify-content: start; */
-        height: auto;
+        height: 60vh;
         box-shadow: 0 0 0 0 white;
         background-image: url(assets/bg/mobile3.png);
         background-size: cover;
