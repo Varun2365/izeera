@@ -171,29 +171,46 @@ nav button:hover{
     color: #0c1816;
     /* margin-top: 0.1rem; */
 }
-.get-holder a{
-    width: 100%;
+.get{
+    width: 40%;
     text-decoration: none;
+    display: flex;
+    padding: 1rem 2rem;
+    /* height: 5rem; */
+    justify-content: center;
+    background-color:white;
+    color: #0c1816;
+    margin-top: 8rem;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+.get:hover{
+    background-color: rgb(233, 233, 233);
 }
 .get-holder{
     width: 100%;
+    height: 6rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    /* background-color: yellow; */
+    justify-content: start;
+    margin-top: 2rem;
     display: none;
     max-width: 40rem;
 }
-.get-started{
+/* .get-started{
     width: 80%;
-    background-color: #0d1a18;
-    color: white;
+    background-color: white;
+    color: #0c1816;
     padding: 1rem 2rem;
     margin-top: 10rem;
     border-bottom-left-radius: 15px;
 }
 .get-started:hover{
     background-color: #182f2c;
-}
+} */
+
+
 .hero-left h4{
     color: rgb(94, 94, 94);
     font-weight: 200;
