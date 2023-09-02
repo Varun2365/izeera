@@ -45,6 +45,7 @@ ScrollReveal().reveal('.text',{delay: 100, origin: 'right', interval: 300})
 ScrollReveal().reveal('.heading-roll',{delay: 300})
 ScrollReveal().reveal('.heading-2',{delay: 600})
 ScrollReveal().reveal('.para',{delay: 900})
+ScrollReveal().reveal('.get',{delay: 1200})
 ScrollReveal().reveal('.nav',{delay: 100, origin: 'top'})
 ScrollReveal().reveal('.web-card', {interval: 10});
 ScrollReveal().reveal('.service-card', {delay: 800,interval: 200});
