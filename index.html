@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,36 @@
         <link rel="stylesheet" href="responsive.css">
         <script src="https://unpkg.com/scrollreveal"></script>
         
-</head>
+    </head>
+    
+    <body>
+    <div class="mobile-menu" id="ham">
+        <div class="cross"><button class="cross-btn" onclick="hideMenu()"></button></div>
+        <div class="mobile-links">
+            <ul>
 
-<body>
-    <nav class="nav">
+                
+                <a href="#">
+                    <li>CASES</li>
+                </a>
+                <a href="#">
+                    <li>SERVICES</li>
+                </a>
+                <a href="#">
+                    <li>BLOG</li>
+                </a>
+                <a href="#">
+                    <li>ABOUT US</li>
+                </a>
+                <a href="#contact">
+                    <li>CONTACT</li>
+                </a>
+                
+                
+            </ul>
+            </div>
+        </div>
+        <nav class="nav">
         <div class="logo">
             <h2>iZEERA</h2>
         </div>
@@ -37,7 +63,9 @@
                 <a href="#"><button>HIRE US</button></a>
             </UL>
         </div>
+        <div class="ham" onclick="showMenu()"></div>
     </nav>
+
     <div class="hero">
         <div class="hero-left">
             <h4 class="left-hero">Hello There!</h4>
@@ -207,6 +235,20 @@
         var form = document.querySelector("form");
         form.reset();
     }
+    var ham = document.getElementById("ham")
+    function showMenu(){
+            ham.style.display = "flex";
+            setTimeout(() => {
+                
+                ham.style.transform = 'translateX(0)';
+            }, 200);
+        }
+        function hideMenu(){
+            ham.style.transform = 'translateX(100%)';
+            setTimeout(() => {
+                ham.style.display = "none";
+            }, 200); 
+        }
     </script>
 </body>
 </html>
