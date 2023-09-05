@@ -167,7 +167,10 @@ footer{
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0%;
     }
-    
+    html
+    {
+        font-size: 14px;
+    }
     .lightning-results{
         box-shadow: none;
     }
