@@ -169,7 +169,7 @@ footer{
     }
     html
     {
-        font-size: 14px;
+        font-size: 12px;
     }
     .lightning-results{
         box-shadow: none;
@@ -250,7 +250,7 @@ footer{
 }
 @media screen and (max-width: 768px) {
     html{
-        font-size: 13px;
+        font-size: 12px;
     }
     .services{
         padding: 4rem 0;
@@ -266,7 +266,7 @@ footer{
 }
 @media screen and (max-width: 480px) {
     html{
-        font-size: 11px;
+        font-size: 9px;
     }
     .hero{
         padding-left: 7rem;
