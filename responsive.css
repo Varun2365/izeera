@@ -250,7 +250,7 @@ footer{
 }
 @media screen and (max-width: 768px) {
     html{
-        font-size: 11px;
+        font-size: 13px;
     }
     .services{
         padding: 4rem 0;
@@ -266,7 +266,7 @@ footer{
 }
 @media screen and (max-width: 480px) {
     html{
-        font-size: 8px;
+        font-size: 11px;
     }
     .hero{
         padding-left: 7rem;
