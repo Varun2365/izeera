@@ -12,16 +12,22 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     .lightning-results-right{
         width: 100%;
         align-items: center;
         padding: 5rem 0;
+        /* background-color: yellow; */
     }
     .lightning-results-right .para{
         padding: 5rem 0;
         font-size: 1.2rem;
         line-height: 21px;
+        color: rgb(71, 71, 71);
+        font-weight: 300;
+        /* background-color: red; */
     }
     .lightning-results-right button{
         border-bottom-left-radius: none;
@@ -33,6 +39,7 @@
         height: 35vh;
         width: 60%;
         margin-bottom: 3rem;
+        /* padding: 0; */
     }
     .lightning-results-right h1{
         width: 100%;
@@ -167,10 +174,7 @@ footer{
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0%;
     }
-    html
-    {
-        font-size: 12px;
-    }
+    
     .lightning-results{
         box-shadow: none;
     }
@@ -250,7 +254,7 @@ footer{
 }
 @media screen and (max-width: 768px) {
     html{
-        font-size: 12px;
+        font-size: 11px;
     }
     .services{
         padding: 4rem 0;
@@ -266,7 +270,7 @@ footer{
 }
 @media screen and (max-width: 480px) {
     html{
-        font-size: 9px;
+        font-size: 8px;
     }
     .hero{
         padding-left: 7rem;
@@ -283,8 +287,8 @@ footer{
     }
     .why-left{
         width: 100%;
-        padding-right: 4rem;
-        padding-left: 4rem;
+        padding-right:1rem;
+        padding-left: 1rem;
     }
     .why-left h1{
         width: 100%;
@@ -292,7 +296,7 @@ footer{
     }
     .why-card-section{
         justify-content: space-around;
-        padding: 4rem;
+        padding: 4rem 0.5rem;
         align-items: center;
         width: 100%;
         /* background-color: red; */
