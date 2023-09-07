@@ -33,6 +33,7 @@ html{
      /* box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.247);
      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3px; */
      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+     overflow: hidden;
  }
  nav h2{
     font-weight: 500;
@@ -874,11 +875,12 @@ footer{
 }
 .logo{
     height: 100%;
-    width: 300px;
+    width: 100px;
     background-image: url(assets/logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
+    scale: 1.4;
 }
 
 
