@@ -23,6 +23,7 @@ html{
      justify-content: space-between;
      align-items: center;
      background-color: rgb(250, 250, 250);
+     background-color: white;
      position: fixed;
      top: 0;
      backdrop-filter: blur(40px);
@@ -66,12 +67,12 @@ li::after{
 
     content: '';
     width: 0;
-    height: 1px ;
-    background-color: #0c181660;
+    height: 3px ;
+    background-color: green;
     position: absolute;
     left: 0;
     bottom: -7px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     margin-top: 3px;
 }
 nav a:hover li::after{
@@ -414,6 +415,7 @@ nav button:hover{
     font-weight: 500;
     font-family: 'Open Sans';
     margin-bottom: 1rem;
+    text-align: center;
 }
 .card-text{
     color: grey;
@@ -739,10 +741,11 @@ footer{
 
 }
 .mobile-links{
+    padding-top: 6rem;
     height: 90%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
 }
 .mobile-links a{
