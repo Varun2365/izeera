@@ -216,7 +216,7 @@ nav button:hover{
     padding: 0 8rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    box-shadow: 0 3px 20px 10px rgba(128, 128, 128, 0.11);
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
 }
 .lightning-results-left{
     width: 30%;
@@ -876,6 +876,105 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
+}
+
+
+
+
+
+
+.testimonial{
+    height: auto;
+    width: 100%;
+    background-color: #0d1a18;
+    padding: 7rem 2rem;
+}
+.testimonial h1{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Open sans';
+    font-weight: 400;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: start;
+
+    /* background-color: red; */
+    flex-wrap: wrap;
+}
+.test-card{
+    /* height: 30redm; */
+    color: white;
+    max-width: 40rem;
+    /* background-color: yellow; */
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    margin: 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+.test-footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    /* background-color: cadetblue; */
+}
+.tfooter-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    align-items: start;
+    padding-right: 1rem;
+    text-align: left;
+    width: 70%;
+}
+.test-para{
+    color: rgb(235, 235, 235);
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+.name{
+    /* background-color: green; */
+    width: 100%;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.test-img{
+    height: 100px;
+    width: 100px;
+    background-image: url(assets/john.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.star{
+    height: 30px;
+    width: 100%;
+    margin-top: 0.3rem;
+    background-image: url(assets/5.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+}
+.jane{
+    background-image: url(assets/jane.jpg);
+}
+.tim{
+    background-image: url(assets/tim.jpg);
 }
 
 @keyframes jump{
